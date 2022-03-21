@@ -1,0 +1,19 @@
+.Baniere{
+    background-color: green;
+    height: 14em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    background-image: url(../../../../assets/Baniere.png);
+    background-position: center;
+    border-radius:20px;
+    display: flex;
+    p{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5em;
+        font-size: 48px;
+        color: white;
+        }
+}

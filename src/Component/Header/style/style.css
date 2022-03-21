@@ -1,0 +1,33 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 5em;
+  background-color: #30dd30;
+}
+
+header img {
+  margin-left: 2em;
+}
+
+header .headerClassLinks {
+  padding-top: 1.9em;
+}
+
+header .headerClassLinks a {
+  text-decoration: none;
+  color: red;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+header .headerClassLinks .active {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */

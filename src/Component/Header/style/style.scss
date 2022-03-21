@@ -1,0 +1,28 @@
+header{
+    display:flex;
+    justify-content:space-between;
+    height: 5em;
+    background-color: rgb(48, 221, 48);
+
+    img{
+        margin-left: 2em;
+    }
+    
+    .headerClassLinks{
+        padding-top: 1.9em;
+        a{
+            text-decoration: none;
+            color:red;
+            justify-content: center;
+            margin-left: 3vw;
+            margin-right: 3vw;
+        }
+        .active{
+            text-decoration: underline;
+        }
+    }
+}
+@media screen and (maxWidth:500px){
+
+}
+
