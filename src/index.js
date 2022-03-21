@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import App from "./Component/pages/Acceuil/acceuil";
+import App from "./pages/Acceuil/acceuil";
 import Header from './Component/Header/Header'
+import Logement from "./pages/Logement/Logement"
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,6 +13,8 @@ ReactDOM.render(
    <BrowserRouter>
    <Routes>
      <Route path="/" element={<App />}/>
+     <Route path="/logement/:id" element={<Logement />}></Route>
+   
    </Routes>
    </BrowserRouter>
   

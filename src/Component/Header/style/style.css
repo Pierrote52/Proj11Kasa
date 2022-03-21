@@ -6,7 +6,6 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 5em;
-  background-color: #30dd30;
 }
 
 header img {
