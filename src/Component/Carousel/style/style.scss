@@ -1,9 +1,37 @@
 
 .Carousel{
     width: 90%;
-    height: 20em;
+    height: 50em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3em;
     border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    position:relative;
+    .buttonSuivant{
+        position: absolute;
+        top:50%;
+        right:2%;
+        background-color: transparent;
+        border-width: 0;
+
+    }
+    .buttonPrecedent{
+        position: absolute;
+        top:50%;
+        left:2%;
+        background-color: transparent;
+        border-width: 0;
+        transform: rotate(180deg);
+    }
+    .decompteImages{
+        color:white;
+        font-size: 2em;
+        position:absolute;
+        bottom:0;
+        left:50%;
+    }
 }

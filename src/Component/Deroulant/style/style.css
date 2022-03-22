@@ -1,0 +1,27 @@
+.deroulant {
+  margin-top: 2em;
+}
+
+.deroulant .titleEtSparow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10em;
+  background-color: red;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.deroulant .titleEtSparow button {
+  background-color: transparent;
+  border-width: 0;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin-right: 0.5em;
+}
+
+.deroulant .titleEtSparow button img {
+  width: 1em;
+}
+/*# sourceMappingURL=style.css.map */

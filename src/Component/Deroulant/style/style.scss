@@ -1,0 +1,21 @@
+.deroulant{
+    margin-top: 2em;
+    .titleEtSparow{
+        display: flex;
+        width: 10em;
+        background-color: red;
+        justify-content: space-between;
+        button{
+            background-color: transparent;
+            border-width: 0;
+            transform: rotate(90deg);
+            margin-right: 0.5em;
+            img{
+                width: 1em;
+
+            }
+        }
+
+    }
+
+}
