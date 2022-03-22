@@ -1,7 +1,10 @@
 import './style/style.css'
+import etoileLike from '../../assets/Like.png'
 
 function EtoileNote(props){
-return <div>La note ici </div>
+return <div className="note">
+             <img src ={etoileLike}/>
+        </div>
 }
 
 export default EtoileNote
