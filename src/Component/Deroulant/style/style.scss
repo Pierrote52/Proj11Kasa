@@ -1,21 +1,74 @@
 .deroulant{
     margin-top: 2em;
-    .titleEtSparow{
+    margin-left: 5vw;
+    width: 40%;
+    border-radius: 2em;
+    color: #FF6060;
+    .titleEtSparowOpen{
         display: flex;
-        width: 10em;
-        background-color: red;
+        background-color: #FF6060;
         justify-content: space-between;
+        border-radius: 20px 20px 0px 0px;
+        transition: all 0.5s;
+        p{
+            margin-left: 1em;
+            color:white;
+            
+        }
+        
         button{
             background-color: transparent;
             border-width: 0;
             transform: rotate(90deg);
             margin-right: 0.5em;
+            transition: all 0.5s;
             img{
                 width: 1em;
 
             }
         }
+        
 
+    }
+    .titleEtSparowClosed{
+        display: flex;
+        background-color: #FF6060;
+        justify-content: space-between;
+        border-radius: 20px 20px 20px 20px;
+        transition: all 0.5s;
+        p{
+            margin-left: 1em;
+            color:white;
+            
+        }
+        
+        button{
+            background-color: transparent;
+            border-width: 0;
+            transform: rotate(-90deg);
+            margin-right: 0.5em;
+            transition: all 0.5s;
+            img{
+                width: 1em;
+
+            }
+        }
+        
+
+    }
+    .contenu{
+        background-color: #F7F7F7;
+        border-radius: 0px 0px 20px 20px;
+        padding: 1em;
+        p{
+            margin-top: 0;
+        }
+        ul{
+            padding-left: 0px;
+            li{
+                list-style-type: none;
+            }
+        }
     }
 
 }

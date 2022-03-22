@@ -7,6 +7,8 @@
   margin-top: 1em;
   background-image: url(../../../assets/Baniere.png);
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 20px;
   display: -webkit-box;
   display: -ms-flexbox;

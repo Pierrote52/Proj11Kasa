@@ -1,27 +1,90 @@
 .deroulant {
   margin-top: 2em;
+  margin-left: 5vw;
+  width: 40%;
+  border-radius: 2em;
+  color: #FF6060;
 }
 
-.deroulant .titleEtSparow {
+.deroulant .titleEtSparowOpen {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 10em;
-  background-color: red;
+  background-color: #FF6060;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  border-radius: 20px 20px 0px 0px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
-.deroulant .titleEtSparow button {
+.deroulant .titleEtSparowOpen p {
+  margin-left: 1em;
+  color: white;
+}
+
+.deroulant .titleEtSparowOpen button {
   background-color: transparent;
   border-width: 0;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   margin-right: 0.5em;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
-.deroulant .titleEtSparow button img {
+.deroulant .titleEtSparowOpen button img {
   width: 1em;
+}
+
+.deroulant .titleEtSparowClosed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FF6060;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.deroulant .titleEtSparowClosed p {
+  margin-left: 1em;
+  color: white;
+}
+
+.deroulant .titleEtSparowClosed button {
+  background-color: transparent;
+  border-width: 0;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  margin-right: 0.5em;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.deroulant .titleEtSparowClosed button img {
+  width: 1em;
+}
+
+.deroulant .contenu {
+  background-color: #F7F7F7;
+  border-radius: 0px 0px 20px 20px;
+  padding: 1em;
+}
+
+.deroulant .contenu p {
+  margin-top: 0;
+}
+
+.deroulant .contenu ul {
+  padding-left: 0px;
+}
+
+.deroulant .contenu ul li {
+  list-style-type: none;
 }
 /*# sourceMappingURL=style.css.map */

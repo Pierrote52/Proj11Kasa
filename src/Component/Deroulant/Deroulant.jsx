@@ -1,14 +1,22 @@
 import Sparow from "../../assets/Vector.png"
 import './style/style.css'
+import {useState} from 'react'
 
 function Deroulant(props){
+    const [isOpen, setIsOpen]=useState(true)
+
     return  <div className="deroulant">
-                <div className="titleEtSparow">
-                    <p>Titre</p>
-                    <button><img src={Sparow} alt="derouler"/></button>
+                <div className={isOpen ? "titleEtSparowOpen":"titleEtSparowClosed"}>
+                    <p>{props.equipments ? "Équipements":props.titre}</p>
+                    <button onClick={()=>{setIsOpen(!isOpen)}}><img src={Sparow} alt="derouler"/></button>
                 </div>
-                <div>
-                    <p>contenue</p>
+                <div className="contenu" style={isOpen ? {display:"block"}:{display:"none"}}>
+                    {props.equipments ? <ul>{
+                        props.equipments.map((element, index)=>{
+                            return <li key ={`${index}-${props.id}-45`}>{element}</li>
+
+                        })
+                        }</ul> :props.description}
                 </div>
 
             </div>

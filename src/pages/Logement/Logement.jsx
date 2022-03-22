@@ -49,7 +49,8 @@ function Logement(){
                 
         </div>
         <div className="EquipementEtDescription">
-                <Deroulant logement={logement}/>
+                <Deroulant description={logement.description} titre={logement.title}/>
+                <Deroulant equipments={logement.equipments}/>
 
         </div>
         </div>
