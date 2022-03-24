@@ -1,3 +1,7 @@
+.Logement {
+  min-width: 522px;
+}
+
 .Logement .TitreEtTags {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,6 +33,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .Logement .TitreEtTags .HoteEtNote .Hote p {
@@ -36,8 +43,8 @@
 }
 
 .Logement .TitreEtTags .HoteEtNote .Hote .photoProfil {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   background-color: black;
   border-radius: 50%;
   background-position: center;
@@ -48,10 +55,49 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .Logement .TitreEtTags {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Logement .TitreEtTags .HoteEtNote {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Logement .TitreEtTags .HoteEtNote .Hote {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .EquipementEtDescription {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .EquipementEtDescription .deroulant {
+    width: 90%;
+    margin-left: 0px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

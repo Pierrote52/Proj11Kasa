@@ -1,5 +1,6 @@
 .Carousel {
   width: 90%;
+  min-width: 522px;
   height: 50em;
   margin-left: auto;
   margin-right: auto;
@@ -36,5 +37,17 @@
   position: absolute;
   bottom: 0;
   left: 50%;
+}
+
+@media only screen and (max-width: 700px) {
+  .Carousel {
+    height: 20em;
+  }
+  .Carousel .buttonSuivant img {
+    width: 2em;
+  }
+  .Carousel .buttonPrecedent img {
+    width: 2em;
+  }
 }
 /*# sourceMappingURL=style.css.map */

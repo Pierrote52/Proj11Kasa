@@ -1,4 +1,5 @@
 .Logement{
+    min-width: 522px;
         
     .TitreEtTags{
         display: flex;
@@ -14,12 +15,13 @@
             align-items: flex-end;
             .Hote {
             display: flex;
+            align-items: center;
             p{
                 margin-right: 1em;
             }
             .photoProfil{
-                width: 50px;
-                height: 50px;
+                width: 80px;
+                height: 80px;
                 background-color: black;
                 border-radius: 50%;
                 background-position: center;
@@ -32,7 +34,33 @@
     }
     .EquipementEtDescription{
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
     }
+    }
+    @media only screen and (max-width:700px){
+        .Logement{
+            .TitreEtTags{
+                flex-direction: column;
+                .HoteEtNote{
+                    justify-content: space-between;
+                    flex-direction: row-reverse;
+                    align-items: center;
+                    .Hote{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                    }
+
+                }
+            }
+        }
+        .EquipementEtDescription{
+            flex-wrap: wrap;
+            .deroulant{
+                width: 90%;
+                margin-left: 0px;
+            }
+        }
+
+        
     }

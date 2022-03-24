@@ -4,7 +4,7 @@ import Deroulant from '../../Component/Deroulant/Deroulant'
 
 function APropos(){
  return <div>
-     <Header />
+     <Header AProposIsTrue={true} />
     <div className="APropos">
         <div className="BaniereProps"></div>
         <Deroulant titre={"Fiabilité"} description={"Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes."} />

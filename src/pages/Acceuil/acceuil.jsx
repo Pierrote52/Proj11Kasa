@@ -4,10 +4,10 @@ import './style/style.css'
 import TableauPrincipale from "../../Component/TableauPrincipale/tableauPrincipale"
 
 function App() {
-    return <div>
-        <Header />
+    return <div className="body">
+        <Header acceuilIsTrue={true}/>
     <div className="Baniere">
-        <p>Chez vous, partout et ailleur</p>
+        <p><span>Chez vous,</span> partout et ailleurs</p>
         </div>
         <TableauPrincipale />
         </div>

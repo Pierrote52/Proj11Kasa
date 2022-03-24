@@ -3,7 +3,8 @@ main {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
-  width: 90%;
+  width: 90vw;
+  max-width: 1130px;
   padding-top: 1em;
   border-radius: 20px;
   display: -webkit-box;
@@ -33,5 +34,23 @@ main article p {
   right: 10px;
   position: absolute;
   color: white;
+}
+
+@media only screen and (max-width: 700px) {
+  main {
+    background-color: transparent;
+  }
+  main article {
+    margin-left: 0;
+    margin-top: 0;
+    width: 90vw;
+    min-width: 528px;
+  }
+  main article p {
+    font-size: 1.7em;
+    right: auto;
+    left: 10px;
+    text-align: start;
+  }
 }
 /*# sourceMappingURL=style.css.map */

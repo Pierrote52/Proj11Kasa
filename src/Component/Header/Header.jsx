@@ -1,15 +1,16 @@
 import { Link } from 'react-router-dom'
-import { styled } from 'react-dom'
+
 import './style/style.css'
 import Logo from '../../assets/logoKasa.png'; 
 
-function Header() {
+function Header(props) {
+
     return (
         <header>
-            <img src={Logo}></img>
+            <img src={Logo} alt="Logo Kasa"></img>
             <div className="headerClassLinks">
-                <Link to="/" className="active">Acceuil</Link>
-                <Link to="/props">A propos</Link></div>
+                <Link to="/" className={props.acceuilIsTrue && "active"}>ACCEUIL</Link>
+                <Link to="/props" className={props.AProposIsTrue &&"active"}>A PROPOS</Link></div>
         </header>
     )
 }

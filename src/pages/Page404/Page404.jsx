@@ -4,7 +4,7 @@ import './style/style.css'
 
 
 function Page404(){
-    return <div>
+    return <div className="body">
     <Header />
     <div className="PageNotFound">
     <h1>404</h1>

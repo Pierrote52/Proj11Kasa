@@ -1,3 +1,14 @@
+.Acceuil {
+  text-decoration: underline;
+}
+
+.body {
+  min-width: 588px;
+  max-width: 1248px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .Baniere {
   background-color: green;
   height: 14em;
@@ -21,5 +32,20 @@
   margin-top: 1.5em;
   font-size: 48px;
   color: white;
+}
+
+@media only screen and (max-width: 700px) {
+  .Baniere {
+    min-width: 502px;
+    height: 10em;
+  }
+  .Baniere p {
+    margin-top: 0.8em;
+    font-size: 2.5em;
+    margin-left: 5vw;
+  }
+  .Baniere p span {
+    display: block;
+  }
 }
 /*# sourceMappingURL=style.css.map */
