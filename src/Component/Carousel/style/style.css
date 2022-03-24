@@ -1,7 +1,7 @@
 .Carousel {
   width: 90%;
   min-width: 522px;
-  height: 50em;
+  height: 30em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3em;
@@ -15,7 +15,7 @@
 
 .Carousel .buttonSuivant {
   position: absolute;
-  top: 50%;
+  top: 45%;
   right: 2%;
   background-color: transparent;
   border-width: 0;
@@ -23,7 +23,7 @@
 
 .Carousel .buttonPrecedent {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 2%;
   background-color: transparent;
   border-width: 0;
