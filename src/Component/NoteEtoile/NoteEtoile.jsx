@@ -7,6 +7,7 @@ function EtoileNote(props){
         let listeEtoiles =[]
         let nombreDeLike = props.etoiles
         let nombreDeTour= 5;
+        const [etoilesTableau, setEtoileTableau]= useState([])
         useEffect(()=>{
                 while(nombreDeTour!==0){
                         
@@ -21,16 +22,17 @@ function EtoileNote(props){
 
 
                 }}
+                setEtoileTableau(listeEtoiles)
+                
 
         },[props])
 
 return <div className="note">
-        <p>{nombreDeLike}</p>
-             <img src ={listeEtoiles[0]}/>
-             <img src=''/>
-             <img src="" alt="" />
-             <img src="" alt="" />
-             <img src="" alt="" />
+             <img src ={etoilesTableau[0]} alt ="etoile"/>
+             <img src ={etoilesTableau[1]} alt="etoile"/>
+             <img src ={etoilesTableau[2]} alt="etoile"/>
+             <img src ={etoilesTableau[3]} alt="etoile"/>
+             <img src ={etoilesTableau[4]} alt="etoile"/>
         </div>
 }
 

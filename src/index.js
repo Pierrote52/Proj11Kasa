@@ -6,6 +6,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import App from "./pages/Acceuil/acceuil";
 import Header from './Component/Header/Header'
 import Logement from "./pages/Logement/Logement"
+import Page404 from './pages/Page404/Page404'
+import APropos from './pages/APropos/APropos';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +16,8 @@ ReactDOM.render(
    <Routes>
      <Route path="/" element={<App />}/>
      <Route path="/logement/:id" element={<Logement />}></Route>
+     <Route path="/props" element ={<APropos />}></Route>
+     <Route path ="*" element ={<Page404/>}></Route>
    
    </Routes>
    </BrowserRouter>
