@@ -1,3 +1,7 @@
+.body {
+  max-width: 1248px;
+}
+
 .APropos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9,7 +13,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-width: 522px;
+  width: 100%;
 }
 
 .APropos .BaniereProps {
@@ -19,6 +23,7 @@
   width: 90%;
   background-image: url("../../../assets/BackgroundProps.png");
   background-size: cover;
+  background-position: center;
 }
 
 .APropos .deroulant {
@@ -27,6 +32,9 @@
 }
 
 @media only screen and (max-width: 700px) {
+  .APropos .BaniereProps {
+    height: 15em;
+  }
   .APropos .deroulant {
     width: 90%;
   }

@@ -3,7 +3,7 @@ import Header from '../../Component/Header/Header'
 import Deroulant from '../../Component/Deroulant/Deroulant'
 
 function APropos(){
- return <div>
+ return <div className="body">
      <Header AProposIsTrue={true} />
     <div className="APropos">
         <div className="BaniereProps"></div>

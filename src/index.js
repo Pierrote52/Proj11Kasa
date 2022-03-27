@@ -17,7 +17,9 @@ ReactDOM.render(
      <Route path="/" element={<App />}/>
      <Route path="/logement/:id" element={<Logement />}></Route>
      <Route path="/props" element ={<APropos />}></Route>
+     <Route path="/Proj11Kasa" element={<App />}/>
      <Route path ="*" element ={<Page404/>}></Route>
+     
    
    </Routes>
    </BrowserRouter>
@@ -27,7 +29,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

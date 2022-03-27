@@ -1,7 +1,17 @@
 .vignette{
    background-position:center;
     p{
-        text-align: start;
+        text-align: end;
     }
 
 }
+
+@media only screen and (max-width:700px){
+    .vignette{
+        p{
+            text-align: start !important;
+        }
+    }
+
+}
+

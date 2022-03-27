@@ -3,6 +3,12 @@
 }
 
 .vignette p {
-  text-align: start;
+  text-align: end;
+}
+
+@media only screen and (max-width: 700px) {
+  .vignette p {
+    text-align: start !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */

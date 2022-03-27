@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.50fa92e1.css",
-    "main.js": "/static/js/main.8a6a6b0b.js",
-    "static/js/787.0ce615c0.chunk.js": "/static/js/787.0ce615c0.chunk.js",
-    "static/media/BackgroundProps.png": "/static/media/BackgroundProps.b83ea110e97df752cb66.png",
-    "static/media/Baniere.png": "/static/media/Baniere.9db15cad24b527227be8.png",
-    "static/media/logoKasa.png": "/static/media/logoKasa.e4e1957aafbd98d8fbb5.png",
-    "index.html": "/index.html",
-    "main.50fa92e1.css.map": "/static/css/main.50fa92e1.css.map",
-    "main.8a6a6b0b.js.map": "/static/js/main.8a6a6b0b.js.map",
-    "787.0ce615c0.chunk.js.map": "/static/js/787.0ce615c0.chunk.js.map"
+    "main.css": "/Proj11Kasa/static/css/main.33002786.css",
+    "main.js": "/Proj11Kasa/static/js/main.3883c906.js",
+    "static/js/787.0ce615c0.chunk.js": "/Proj11Kasa/static/js/787.0ce615c0.chunk.js",
+    "static/media/BackgroundProps.png": "/Proj11Kasa/static/media/BackgroundProps.b83ea110e97df752cb66.png",
+    "static/media/Baniere.png": "/Proj11Kasa/static/media/Baniere.9db15cad24b527227be8.png",
+    "static/media/logoKasa.png": "/Proj11Kasa/static/media/logoKasa.e4e1957aafbd98d8fbb5.png",
+    "index.html": "/Proj11Kasa/index.html",
+    "main.33002786.css.map": "/Proj11Kasa/static/css/main.33002786.css.map",
+    "main.3883c906.js.map": "/Proj11Kasa/static/js/main.3883c906.js.map",
+    "787.0ce615c0.chunk.js.map": "/Proj11Kasa/static/js/787.0ce615c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50fa92e1.css",
-    "static/js/main.8a6a6b0b.js"
+    "static/css/main.33002786.css",
+    "static/js/main.3883c906.js"
   ]
 }
