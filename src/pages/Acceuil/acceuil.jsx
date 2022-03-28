@@ -1,6 +1,7 @@
 import Header from "../../Component/Header/Header"
 import './style/style.css'
 import TableauPrincipale from "../../Component/TableauPrincipale/tableauPrincipale"
+import Footer from "../../Component/Footer/footer"
 
 function App() {
     return <div className="body">

@@ -1,6 +1,7 @@
 import './style/style.css'
 import Header from '../../Component/Header/Header'
 import Deroulant from '../../Component/Deroulant/Deroulant'
+import Footer from '../../Component/Footer/footer'
 
 function APropos(){
  return <div className="body">

@@ -8,6 +8,7 @@ import Header from './Component/Header/Header'
 import Logement from "./pages/Logement/Logement"
 import Page404 from './pages/Page404/Page404'
 import APropos from './pages/APropos/APropos';
+import Footer from './Component/Footer/footer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -24,6 +25,7 @@ ReactDOM.render(
    
    </Routes>
    </BrowserRouter>
+   <Footer/>
   
    
   </React.StrictMode>,
