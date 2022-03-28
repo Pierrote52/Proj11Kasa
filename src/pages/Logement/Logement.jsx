@@ -7,19 +7,26 @@ import './style/style.css'
 import Tags from '../../Component/Tags/Tags'
 import EtoileNote from '../../Component/NoteEtoile/NoteEtoile'
 import Deroulant from '../../Component/Deroulant/Deroulant'
+import { useNavigate } from 'react-router-dom';
 
 function Logement(){
     const {id}=useParams()
     const [logement, setLogement] = useState({})
-
+    const navigate = useNavigate();
+let found =false;
             useEffect(()=>{
+                    
                 data.map((element)=>{
         if(element.id === id){
+                found =true;
            setLogement(element)
         }
         
         
     });
+    if(!found){
+        navigate("/error")
+    }
             })
     
     

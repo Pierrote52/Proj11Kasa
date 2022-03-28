@@ -19,6 +19,7 @@ ReactDOM.render(
      <Route path="/props" element ={<APropos />}></Route>
      <Route path="/Proj11Kasa" element={<App />}/>
      <Route path ="*" element ={<Page404/>}></Route>
+     <Route path ="/error" element ={<Page404/>}></Route>
      
    
    </Routes>
